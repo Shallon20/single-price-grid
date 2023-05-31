@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "karla", sans-serif;
+
+}
+
+.join {
+  padding: 30px;
+  line-height: 2rem;
+  background-color: #fff;
+  border-radius: 9px 9px 0 0;
+}
+
+.join h4 {
+  color: hsl(71, 73%, 54%);
+}
+
+.join h2 {
+  color: hsl(179, 62%, 43%);
+  padding-bottom: 1rem;
+}
+
+p {
+  color: hsl(218, 22%, 67%, .6);
+  font-size: 1rem;
+  font-weight: 1000;
+  margin-top: 1rem;
+}
+
+.sub {
+  background-color: hsl(179, 62%, 43%, .9);
+  line-height: 3rem;
+  padding: 30px;
+}
+
+.sub h3 {
+  color: hsl(204, 43%, 93%);
+}
+
+h1 {
+  color: #fff;
+}
+
+.amt {
+  display: flex;
+}
+
+.amt h3 {
+  font-size: 20px;
+  color: hsl(204, 43%, 93%, .5);
+  margin-left: 1.2rem;
+}
+
+.btn {
+  background-color: hsl(71, 73%, 54%);
+  padding: 20px 125px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.why {
+  background-color: hsl(179, 62%, 43%, .8);
+  padding: 30px;
+  border-radius: 0 0 9px 9px;
+  line-height: 1.5rem;
+}
+
+.why h3 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  color: hsl(204, 43%, 93%, .7);
+  font-size: 1.05rem;
+}
+
+@media (min-width:760px) {
+
+  .two {
+    display: flex;
+  }
+
+  .join {
+    border-radius: 9px 9px 0 0;
+    padding: 50px 0;
+  }
+
+  .join h2 {
+    font-size: 40px;
+  }
+
+  .join h4 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 3rem;
+  }
+
+  .sub {
+    border-radius: 0 0 0 9px;
+    padding: 20px 50px;
+
+  }
+
+  .sub h3 {
+    font-size: 25px;
+  }
+
+  .sub h1 {
+    font-size: 55px;
+  }
+
+  .btn {
+    margin: 20px 0;
+  }
+
+  .why {
+    border-radius: 0 0 9px 0;
+    padding: 0 100px;
+
+  }
+
+  .why h3 {
+    font-size: 25px;
+    padding-top: 30px;
+  }
+
+  ul {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width:1024px) {
+  .sub {
+    padding: 30px 70px;
+
+  }
+
+  .why {
+    padding: 0 125px;
+
+  }
+}
